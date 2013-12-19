@@ -1,0 +1,133 @@
+/* GLOBAL ELEMENTS*/
+
+	body{
+		font-family: "Droid Sans", sans-serif;
+		background-color: #2980b9;
+		padding:20px 30px; margin: 0px;
+	}
+
+	h1,h2,h3,h4{
+		padding: 0px; margin: 0px;
+	}
+	
+/** Nav Menu */
+	ul.nav-menu{
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		width: 490px;
+		margin: 60px auto;
+	}
+
+	ul.nav-menu li{
+		display: inline;
+		margin-right: 10px;
+		padding:10px;
+		border: 1px solid #ddd;
+	}
+
+	ul.nav-menu li a{
+		color: #eee;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	ul.nav-menu li a:hover, ul.nav-menu li a.active{
+		color: #2c3e50;
+	}	
+	
+
+/* GLOBAL CLASSES */
+
+	.captioned{
+		list-style-type: none;
+		margin: 0px; padding: 0px;
+	}
+	
+	.captioned li{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}	
+	
+	.captioned li:hover .caption{
+		opacity: 1;
+	}
+	
+	.captioned img{
+		margin: 0px; padding: 0px;
+		float: left; z-index: 4;
+	}
+	
+	.captioned .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+	}
+	
+	.captioned .blur{
+		height: 300px;
+		width: 400px;
+		z-index: 5;
+		position: absolute;
+	}
+	
+	.captioned .caption-text h1{
+		text-transform: uppercase;
+	}
+		
+	.captioned .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 400px;
+		height: 300px;
+		text-align: center;	
+	}
+	
+/** content **/
+	.content{
+		margin-top: 100px;
+		margin-left: 100px;
+		width: 700px;
+	}
+	.content h1, .content h2{
+		font-family: "Droid Sans";
+		color: #ecf0f1;
+		padding: 0px;
+		margin: 0px;
+		font-weight: normal;
+	}
+
+	.content h1{
+		font-weight: 900;
+		font-size: 64px;
+	}
+
+	.content h2{
+		font-size:26px;
+	}
+
+	.content p{
+		color: #ecf0f1;
+		line-height: 28px;
+		font-size: 15px;
+		padding-top: 50px;
+	}
+
+	p.credit{
+		padding-top: 20px;
+		font-size: 12px;
+	}
+
+	p a{
+		color: #ecf0f1;
+	}
+
+	/** fork icon**/
+	.fork{
+		position: absolute;
+		top:0px;
+		left: 0px;
+	}
